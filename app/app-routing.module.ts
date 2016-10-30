@@ -8,7 +8,9 @@ import { HomeComponent }    from './home/home.component';
   imports: [
     RouterModule.forRoot([
       { path: 'blog', component: BlogComponent },
-      { path: 'home', component: HomeComponent }
+      { path: 'home', component: HomeComponent },
+      { path: '', component: HomeComponent },
+      { path: '**', component: HomeComponent }
     ])
   ],
   exports: [

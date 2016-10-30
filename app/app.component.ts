@@ -15,4 +15,5 @@ import { Component } from '@angular/core';
     </nav>
   `
 })
-export class AppComponent { }
+export class AppComponent {
+}
